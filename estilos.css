@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@300;400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     font-family: 'Montserrat', sans-serif;
+}
+
+h1 { 
+    font-size: 2.5rem; 
+}
+
+h2 { 
+    font-size: 2rem; 
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em; 
+}
+
+a {
+    text-decoration: none;
+} 
+
+/* Classes */
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large {
+    font-size: 1.25rem;
+}
+
+.txt-blue {
+    color:rgb(87, 108, 148);
+}
+
+.txt-blue_lighter {
+    color: rgb(152, 181, 236);
+}
+
+.txt-lighter {
+    font-weight: 300;
+}
+
+.display-1 {
+    font-size: 70px;
+    text-transform: uppercase; 
+}
+
+.btn {
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+
+.btn-light {
+    background: rgb(87, 108, 148);
+    border: 1px solid rgb(87, 108, 148));
+    color: #fff;
+    display: block;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.btn-outline {
+    border: 2px solid #fff;
+    display: block;
+    color:#fff;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.btn-dark {
+    background:rgb(47, 58, 79);
+    border: 1px solid rgb(47, 58, 79);
+    color:#fff;
+}
+
+/* Header */
+
+#mainheader {
+    height: 100vh;
+    padding-top: 50px;
+}
+
+#bodyheader {
+    height: 20vh;
+    padding-top: 50px;
+}
+
+/* Nav Bar */
+
+#mainnavbar {
+    overflow: auto;
+}
+
+#mainnavbar a {
+    color:rgb(70, 70, 70);
+}
+
+#navbar {
+    background: rgb(47, 58, 79);
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#mainnavbar .logo,
+#navbar .logo {
+    float:left;
+    padding-top: 30px;
+    font-size: 28px;
+    text-transform: lowercase;
+}
+
+#mainnavbar ul,
+#navbar ul {
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+}
+
+#mainnavbar ul li,
+#navbar ul li {
+    float:left;
+}
+
+#mainnavbar ul li a,
+#navbar ul li a{
+    display: block;
+    padding: 40px 30px;
+    text-align:center;
+}
+
+#mainnavbar ul li a:hover {
+    background: rgb(47, 58, 79);
+    color: #fff;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: rgb(152, 181, 236);
+    color: #fff;
+}
+
+/* Showcase */
+
+#mainshowcase {
+    background: url('img/inicio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding-top:  200px;
+    padding-bottom: 90px;
+    color: #fff;
+}
+
+#showcase-iphone {
+    background: url('img/iphone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding-top:  200px;
+    padding-bottom: 90px;
+    color: #fff;
+}
+
+#showcase-ipad {
+    background: url('img/ipad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding-top:  200px;
+    padding-bottom: 90px;
+    color: #fff;
+}
+
+#showcase-mac {
+    background: url('img/mac.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding-top:  200px;
+    padding-bottom: 90px;
+    color: #fff;
+}
+
+#mainshowcase h1 {
+    text-align: center;
+}
+
+#showcase-iphone h1,
+#showcase-ipad h1,
+#shocase-mac h1{
+    padding-left: 300px;
+}
+
+
+#mainshowcase p{
+    text-align: center;
+}
+
+#showcase-iphone p,
+#showcase-ipad p,
+#showcase-mac p{
+    padding-left: 300px;
+}
+
+.iphone-box {
+    float:left;
+    width: 33%;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+.ipad-box {
+    float:left;
+    width: 33%;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+.mac-box {
+    float:left;
+    width: 33%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.iphone-box img {
+    width: 100%;
+    padding: 20px;
+}
+
+.ipad-box img {
+    width: 100%;
+    padding: 20px;
+}
+
+.mac-box img {
+    width: 100%;
+    padding: 20px;
+}
+
+
+
